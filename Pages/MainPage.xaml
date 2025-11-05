@@ -54,12 +54,16 @@
                                 <TextBlock Text="{Binding Name}"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Возраст: "/>
+                                <TextBlock Text="Фамилия: "/>
                                 <TextBlock Text="{Binding Surname}"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Адрес электронной почты: "/>
+                                <TextBlock Text="Дата рождения: "/>
                                 <TextBlock Text="{Binding Birthday, StringFormat='Date of birthday: {0:dd.MM.yyyy}'}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Номер: "/>
+                                <TextBlock Text="{Binding Phonenumber, StringFormat=' {0:0 (000) 000 00 00}'}"/>
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>

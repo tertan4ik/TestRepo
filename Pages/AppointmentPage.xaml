@@ -4,41 +4,79 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
-      mc:Ignorable="d" 
-      d:DesignHeight="570" d:DesignWidth="1000"
-      Title="AppointmentPage" >
-
-    <Grid>
+      xmlns:validators="clr-namespace:WpfApp_DataBinding_Ver2.Validators"
+      xmlns:main="clr-namespace:WpfApp_DataBinding_Ver2"
+      mc:Ignorable="d"
+      Title="AppointmentPage" Height="931" Width="1008" >
+    <Page.Resources>
+        <main:AppointmentStory x:Key="Appointment"/>
+    </Page.Resources>
+    <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Border Style="{StaticResource SpecBorder}">
-        <StackPanel Style="{StaticResource Panels}">
-                <Label Content="Name"/>
-                <Label Content="{Binding Name}"  HorizontalAlignment="Left"/>
-                <Label Content="Surname"/>
-                <Label Content="{Binding Surname}"  HorizontalAlignment="Left"/>
-                <Label Content="Lastname"/>
-                <Label Content="{Binding Lastname}"  HorizontalAlignment="Left"/>
-                <Label Content="Birthday"/>
-                <Label Content="{Binding Birthday, StringFormat='Date of birthday: {0:dd.MM.yyyy}'}" HorizontalAlignment="Left"/>
+            <StackPanel Style="{StaticResource Panels}">
+                <Label Content="{Binding Name, StringFormat='Name: {0}'}" HorizontalAlignment="Left"/>
+                <Label Content="{Binding Surname, StringFormat='Surname: {0}'}" HorizontalAlignment="Left"/>
+                <Label Content="{Binding Lastname, StringFormat='Lastname: {0}'}" HorizontalAlignment="Left"/>
+                <Label Content="{Binding Birthday, StringFormat='Birthday: {0:dd.MM.yyyy}'}" HorizontalAlignment="Left"/>
+                <Label x:Name="Age" HorizontalAlignment="Left"/>
+                <Label x:Name="LastAppointment" HorizontalAlignment="Left"/>
 
-                <DockPanel  LastChildFill="True">
+                <!-- New diagnosis с валидацией -->
+                <DockPanel DataContext="{StaticResource Appointment}">
                     <Label Content="New diagnosis:" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="30" HorizontalAlignment="Stretch" x:Name="nDiagnosis"/>
+                    <TextBox Height="30" HorizontalAlignment="Stretch" x:Name="nDiagnosis" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Diagnosis" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=nDiagnosis, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" 
+                                       FontWeight="SemiBold"
+                                       TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
 
-                <DockPanel  LastChildFill="True" DataContext="{Binding Appointmentstories}">
+                <!-- Recommendations с валидацией -->
+                <DockPanel DataContext="{StaticResource Appointment}">
                     <Label Content="Recomindations:" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
-                    <TextBox Height="76" HorizontalAlignment="Stretch" x:Name="nRecomendations"/>
+                    <TextBox Height="76" HorizontalAlignment="Stretch" x:Name="nRecomendations" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Recommendations" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=nRecomendations, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" 
+                                       FontWeight="SemiBold"
+                                       TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
+
                 <Button Width="300" Height="35" Content="Закончить прием" HorizontalAlignment="Center"  Click="EndReception"/>
                 <Button Width="300" Height="35" Content="Назад" HorizontalAlignment="Center"  Click="Back"/>
             </StackPanel>
         </Border>
 
-           
+
         <StackPanel Grid.Column="1" >
             <ListView ItemsSource="{Binding Appointmentstories}">
                 <ListView.ItemTemplate>

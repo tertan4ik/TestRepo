@@ -35,7 +35,8 @@
                 </ControlTemplate>
             </Setter.Value>
 
-        </Setter>
+        </Setter>
+
     </Style>
 
 

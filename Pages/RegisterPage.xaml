@@ -4,41 +4,146 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
-      mc:Ignorable="d" 
-      d:DesignHeight="495" d:DesignWidth="800"
-      Title="RegisterPage" >
+      xmlns:validators="clr-namespace:WpfApp_DataBinding_Ver2.Validators"
+      mc:Ignorable="d"
+      Title="RegisterPage" Height="657" Width="822" >
 
     <Grid>
         <Border Style="{StaticResource SpecBorder}" >
             <StackPanel Style="{StaticResource Panels}">
-                <DockPanel HorizontalAlignment="Center">
-                    <Label Content="Name" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Name}"/>
+                <!-- Name с валидацией -->
+                <DockPanel LastChildFill="True">
+                    <Label Content="Name" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="nameTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=nameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel HorizontalAlignment="Center">
-                    <Label Content="Surname" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Surname}"/>
+
+                <!-- Surname с валидацией -->
+                <DockPanel LastChildFill="True">
+                    <Label Content="Surname" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="surnameTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Surname" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=surnameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel HorizontalAlignment="Center">
-                    <Label Content="Lastname" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Lastname}"/>
+
+                <!-- Lastname с валидацией -->
+                <DockPanel LastChildFill="True">
+                    <Label Content="Lastname" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="lastnameTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Lastname" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=lastnameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel HorizontalAlignment="Center" >
+
+                <!-- Specialization с валидацией -->
+                <DockPanel LastChildFill="True">
                     <Label Content="Specialization" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Specialization}"/>
+                    <TextBox x:Name="specializationTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Specialization" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=specializationTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel HorizontalAlignment="Center" >
-                    <Label Content="Password" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Password}"/>
+
+                <!-- Password только на пустоту -->
+                <DockPanel LastChildFill="True">
+                    <Label Content="Password" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="passwordTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Password" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=passwordTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel HorizontalAlignment="Center" >
-                    <Label Content="Password confirmation" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Passwordconfirm}"/>
+
+                <!-- Password confirmation только на пустоту -->
+                <DockPanel LastChildFill="True">
+                    <Label Content="Password confirmation" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="passwordConfirmTextBox" Height="25" HorizontalAlignment="Stretch" MinWidth="100" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Passwordconfirm" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=passwordConfirmTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <Button Content="Зарегестрироваться" Height="40" Width="300"  HorizontalAlignment="Center" Click="Registration"/>
+
+                <Button Content="Зарегестрироваться" Height="40" Width="300" HorizontalAlignment="Center" Click="Registration"/>
                 <Button Content="Войти" Height="40" Width="300" HorizontalAlignment="Center" Click="Back"/>
             </StackPanel>
         </Border>
-
     </Grid>
 </Page>

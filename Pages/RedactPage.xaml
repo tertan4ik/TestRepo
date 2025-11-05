@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
+      xmlns:validators="clr-namespace:WpfApp_DataBinding_Ver2.Validators"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RedactPage">
@@ -11,23 +12,84 @@
     <Grid>
         <Border Style="{StaticResource SpecBorder}">
             <StackPanel Style="{StaticResource Panels}">
-                <DockPanel LastChildFill="True">
+                <!-- Name с валидацией -->
+                <DockPanel>
                     <Label Content="Name" DockPanel.Dock="Top" HorizontalAlignment="Center" />
-                    <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Name}"/>
+                    <TextBox x:Name="nameTextBox" Height="25" HorizontalAlignment="Stretch" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=nameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" 
+                                       FontWeight="SemiBold"
+                                       TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
 
-                <DockPanel  LastChildFill="True">
+                <!-- Surname с валидацией -->
+                <DockPanel>
                     <Label Content="Surname" DockPanel.Dock="Top" HorizontalAlignment="Center" />
-                    <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Surname}"/>
+                    <TextBox x:Name="surnameTextBox" Height="25" HorizontalAlignment="Stretch" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Surname" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=surnameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" 
+                                       FontWeight="SemiBold"
+                                       TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel  LastChildFill="True">
+
+                <!-- Lastname с валидацией -->
+                <DockPanel>
                     <Label Content="Lastname" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
-                    <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Lastname}"/>
+                    <TextBox x:Name="lastnameTextBox" Height="25" HorizontalAlignment="Stretch" DockPanel.Dock="Top">
+                        <TextBox.Text>
+                            <Binding Path="Lastname" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:Nullvalidation/>
+                                    <validators:Stringvalidation/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=lastnameTextBox, Path=(Validation.Errors)}" DockPanel.Dock="Bottom">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" 
+                                       FontWeight="SemiBold"
+                                       TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </DockPanel>
-                <DockPanel  LastChildFill="True">
+
+                <!-- Дата рождения -->
+                <DockPanel LastChildFill="True">
                     <Label Content="Дата рождения" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
-                    <DatePicker Height="25" HorizontalAlignment="Stretch"  Text="{Binding Birthday }"/>
+                    <DatePicker Height="25" HorizontalAlignment="Stretch" SelectedDate="{Binding Birthday}"/>
                 </DockPanel>
+
                 <Button Content="Изменить пациента" Height="40" Width="300"  HorizontalAlignment="Center" Click="Redactpacient"/>
                 <Button Content="Назад" Height="40" Width="300"  HorizontalAlignment="Center" Click="Back"/>
             </StackPanel>

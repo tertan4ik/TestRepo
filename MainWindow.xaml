@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2"
         mc:Ignorable="d"
-        Title="Медицинская система" Height="700" Width="1000"
+        Title="Медицинская система" Height="835" Width="1000"
         Background="{DynamicResource BackgroundBrush}">
 
     <DockPanel>
         <!-- Меню - основа готова -->
-        <Menu DockPanel.Dock="Top" Background="{DynamicResource PrimaryBrush}">
+        <Menu DockPanel.Dock="Top">
             <MenuItem Header="Настройки">
                 <MenuItem  Header="Сменить тему" Click="ChangeTheme_Click"/>
             </MenuItem>

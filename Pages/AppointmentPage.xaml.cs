@@ -29,6 +29,10 @@ namespace WpfApp_DataBinding_Ver2.Pages
             InitializeComponent();
             pacient = p;
             DataContext = pacient;
+            Age.Content = "Age: " + CalculateAge(pacient.Birthday)+ ", " + AgeChecker(CalculateAge(pacient.Birthday));
+            LastAppointment.Content ="Last appointment info: " + LastAppointmentDays();
+
+
         }
 
         public void EndReception(object sender, RoutedEventArgs e)
@@ -56,5 +60,47 @@ namespace WpfApp_DataBinding_Ver2.Pages
             NavigationService.GoBack();
         }
 
+        public static int CalculateAge(DateTime birthDate)
+        {
+            DateTime today = DateTime.Today;
+
+            int age = today.Year - birthDate.Year;
+
+            // Если день рождения еще не наступил в этом году, вычитаем 1 год
+            if (birthDate.Date > today.AddYears(-age))
+            {
+                age--;
+            }
+
+            return age;
+        }
+
+        public string AgeChecker(int age)
+        {
+            if(age>=18)
+            {
+                return "Совершеннолетний";
+            }
+            else
+            {
+                return "Несовершеннолетний";
+            }
+        }
+
+        public string LastAppointmentDays()
+        {
+            if(pacient.Appointmentstories != null)
+            {
+                DateTime today = DateTime.Today;
+                TimeSpan difference = today - pacient.Appointmentstories[pacient.Appointmentstories.Count - 1].Date;
+                return $"Дней с последнего приема: {(int)difference.TotalDays}" ;
+            }
+            else
+            {
+                return "Первый прием в клинике";
+            }
+
+        }
+         
     }
 }

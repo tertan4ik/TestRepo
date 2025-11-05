@@ -89,6 +89,20 @@ namespace WpfApp_DataBinding_Ver2
             }
         }
 
+        private Int64 _Phonenumber;
+        public Int64 Phonenumber
+        {
+            get => _Phonenumber;
+            set
+            {
+                if (_Phonenumber != value)
+                {
+                    _Phonenumber = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
         private List<AppointmentStory> _Appointmentstories = null;
         
         public List<AppointmentStory>  Appointmentstories

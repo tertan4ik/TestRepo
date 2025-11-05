@@ -26,7 +26,7 @@ namespace WpfApp_DataBinding_Ver2
 
     public partial class MainWindow : Window
     {
-        bool signin = false;
+       bool signin = false;
         bool register=false;
         bool pacientfind=false;
         public MainWindow()
