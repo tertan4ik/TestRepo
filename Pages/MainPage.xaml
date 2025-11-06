@@ -30,9 +30,9 @@
             </Border>
             <Border  Grid.Column="0">
                 <StackPanel Margin="10">
-                    <Button Style="{StaticResource AddButton}" Click="Gotoadd"/>
+                    <Button Content="Добавить пациента" Style="{StaticResource AddButton}" Click="Gotoadd"/>
                     <Button Content="Изменить пациента"  Click="Gotoredact"/>
-                    <Button Style="{StaticResource DeleteButton}"   Click="DeleteUser"/>
+                    <Button Content="Удалить" Style="{StaticResource DeleteButton}"   Click="DeleteUser"/>
                     <Button Content="Начать прием"   Click="GotoRecept"/>
                 </StackPanel>
             </Border>
@@ -63,7 +63,7 @@
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Номер: "/>
-                                <TextBlock Text="{Binding Phonenumber, StringFormat=' {0:0 (000) 000 00 00}'}"/>
+                                <TextBlock Text="{Binding Phonenumber, StringFormat=' {0:0 (000) 000-00-00}'}"/>
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>

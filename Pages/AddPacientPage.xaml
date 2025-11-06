@@ -116,7 +116,7 @@
                     <DatePicker Height="25" HorizontalAlignment="Stretch" SelectedDate="{Binding Birthday,UpdateSourceTrigger=PropertyChanged}"/>
                 </DockPanel>
 
-                <Button Style="{StaticResource AddButton}" Height="40" Width="300" HorizontalAlignment="Center" Click="Addpacient"/>
+                <Button Style="{StaticResource AddButton}" Content="Добавить" Height="40" Width="300" Click="Addpacient"/>
                 <Button Content="Назад" Height="40" Width="300" HorizontalAlignment="Center" Click="Gotomain"/>
             </StackPanel>
         </Border>

@@ -5,9 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       xmlns:validators="clr-namespace:WpfApp_DataBinding_Ver2.Validators"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="RedactPage">
+      mc:Ignorable="d"
+      Title="RedactPage" Height="505" Width="735">
 
     <Grid>
         <Border Style="{StaticResource SpecBorder}">

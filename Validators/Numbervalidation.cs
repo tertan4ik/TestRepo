@@ -16,7 +16,11 @@ namespace WpfApp_DataBinding_Ver2.Validators
 
             foreach (char c in input)
             {
-                if (char.IsLetter(c))
+                if(input.Length>11)
+                {
+                    return new ValidationResult(false, "Номер не может быть больше 11 цифр");
+                }
+                if (!char.IsDigit(c))
                 {
                     return new ValidationResult(false, "В поле могут быть только цифры");
 

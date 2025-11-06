@@ -42,7 +42,7 @@
 
     <Style x:Key="AddButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
         <Setter Property="Background" Value="{DynamicResource AddButtonColor}"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="Margin" Value="0,10"/>
         <Setter Property="BorderThickness" Value="0"/>
@@ -54,9 +54,16 @@
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border"
                             Background="{TemplateBinding Background}"
-                            CornerRadius="10"                            
+                            CornerRadius="10"  
+               
                             >
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}" Content="💪 Добавить пациента"/>
+
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Label x:Name="ico" Content="💪 " VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <ContentPresenter                          
+                                VerticalAlignment="Center" Margin="{TemplateBinding Padding}"
+                                />
+                        </StackPanel>
                     </Border>
                     <ControlTemplate.Triggers>
 
@@ -78,7 +85,7 @@
 
     <Style x:Key="DeleteButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
         <Setter Property="Background" Value="{DynamicResource DeleteButtonColor}"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="Margin" Value="0,10"/>
         <Setter Property="BorderThickness" Value="0"/>
@@ -87,13 +94,23 @@
 
         <Setter Property="Template">
             <Setter.Value>
+
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border"
                             Background="{TemplateBinding Background}"
-                            CornerRadius="10"                            
+                            CornerRadius="10"   
+                        
                             >
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}"   Content="🗑️ Удалить"/>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Label x:Name="ico" Content="🗑️ " VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <ContentPresenter                          
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}"
+                              />
+                        </StackPanel>
+
                     </Border>
+
+
                     <ControlTemplate.Triggers>
 
                         <Trigger Property="IsMouseOver" Value="True">
@@ -110,4 +127,5 @@
 
         </Setter>
     </Style>
+
 </ResourceDictionary>

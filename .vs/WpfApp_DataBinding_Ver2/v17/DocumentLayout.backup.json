@@ -1,132 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\",
+  "WorkspaceRootPath": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\validators\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:validators\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\styles\\ui\\panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\styles\\ui\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\validators\\numbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\validators\\numbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:validators\\numbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\validators\\nullvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:validators\\nullvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\validators\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:validators\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\styles\\ui\\panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\styles\\ui\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\validators\\nullvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:validators\\nullvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st310-06\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\wpfapp_databinding_ver2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\wpfapp_databinding_ver2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:wpfapp_databinding_ver2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\trpo\\wpfpages\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u0435\u0440\u0435\u043C\u0435\u0435\u0432_\u043F\u0440-42\\test\\testrepo\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -137,28 +129,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 15,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppointmentStory.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\AppointmentStory.cs",
-              "RelativeDocumentMoniker": "AppointmentStory.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\AppointmentStory.cs",
-              "RelativeToolTip": "AppointmentStory.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:56:47.663Z",
+              "DocumentIndex": 2,
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "Pages\\AppointmentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T07:08:46.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
+              "Title": "AppointmentStory.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\AppointmentStory.cs",
+              "RelativeDocumentMoniker": "AppointmentStory.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\AppointmentStory.cs",
+              "RelativeToolTip": "AppointmentStory.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:56:47.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AppointmentPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AppointmentPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AppointmentPage.xaml.cs",
               "RelativeToolTip": "Pages\\AppointmentPage.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,11 +178,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RegisterPage.xaml",
               "RelativeToolTip": "Pages\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T22:44:37.92Z",
@@ -179,11 +190,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "AddPacientPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AddPacientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AddPacientPage.xaml",
               "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AddPacientPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AddPacientPage.xaml",
               "RelativeToolTip": "Pages\\AddPacientPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T23:01:11.061Z",
@@ -191,23 +202,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppointmentPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AppointmentPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AppointmentPage.xaml",
-              "RelativeToolTip": "Pages\\AppointmentPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T23:01:08.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "RedactPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RedactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RedactPage.xaml",
               "RelativeDocumentMoniker": "Pages\\RedactPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RedactPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RedactPage.xaml",
               "RelativeToolTip": "Pages\\RedactPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-23T06:49:22.542Z",
@@ -217,9 +216,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Text.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Text.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Text.xaml",
               "RelativeDocumentMoniker": "Styles\\UI\\Text.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Text.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Text.xaml",
               "RelativeToolTip": "Styles\\UI\\Text.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-27T06:06:56.449Z",
@@ -227,11 +226,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\LoginPage.xaml",
               "RelativeToolTip": "Pages\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T22:39:11.664Z",
@@ -239,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Stringvalidation.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Stringvalidation.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Stringvalidation.cs",
               "RelativeDocumentMoniker": "Validators\\Stringvalidation.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Stringvalidation.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Stringvalidation.cs",
               "RelativeToolTip": "Validators\\Stringvalidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Panels.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Panels.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Panels.xaml",
               "RelativeDocumentMoniker": "Styles\\UI\\Panels.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Panels.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Panels.xaml",
               "RelativeToolTip": "Styles\\UI\\Panels.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-27T07:51:50.078Z",
@@ -264,36 +263,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T22:44:52.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:44:52.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Pacient.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pacient.cs",
               "RelativeDocumentMoniker": "Pacient.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pacient.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pacient.cs",
               "RelativeToolTip": "Pacient.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAADwv2AAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:37:19.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:37:19.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\MainPage.xaml",
               "RelativeToolTip": "Pages\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T18:42:55.459Z",
@@ -301,11 +298,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "Button.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Button.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Button.xaml",
               "RelativeDocumentMoniker": "Styles\\UI\\Button.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\UI\\Button.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\UI\\Button.xaml",
               "RelativeToolTip": "Styles\\UI\\Button.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-26T19:56:04.345Z",
@@ -313,52 +310,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "Pages\\MainPage.xaml.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwE8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T18:42:56.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T18:42:56.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "P_0000001.json",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json",
-              "RelativeDocumentMoniker": "bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json",
-              "RelativeToolTip": "bin\\Debug\\net8.0-windows\\Pacients\\P_0000001.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T17:44:47.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "P_0000002.json",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json",
-              "RelativeDocumentMoniker": "bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json",
-              "RelativeToolTip": "bin\\Debug\\net8.0-windows\\Pacients\\P_0000002.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAgAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T17:44:36.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Numbervalidation.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Numbervalidation.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Numbervalidation.cs",
               "RelativeDocumentMoniker": "Validators\\Numbervalidation.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Numbervalidation.cs",
-              "RelativeToolTip": "Validators\\Numbervalidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Numbervalidation.cs*",
+              "RelativeToolTip": "Validators\\Numbervalidation.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T17:31:58.776Z",
               "EditorCaption": ""
@@ -367,35 +337,33 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Nullvalidation.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Nullvalidation.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Nullvalidation.cs",
               "RelativeDocumentMoniker": "Validators\\Nullvalidation.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Validators\\Nullvalidation.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Validators\\Nullvalidation.cs",
               "RelativeToolTip": "Validators\\Nullvalidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:50:36.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T15:50:36.847Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:42:50.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:42:50.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\App.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T23:36:13.288Z",
@@ -405,22 +373,21 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\App.config",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\App.config",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-27T05:18:28.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T05:18:28.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "DarkTheme.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\Colors\\DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\Colors\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "Styles\\Colors\\DarkTheme.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\Colors\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\Colors\\DarkTheme.xaml",
               "RelativeToolTip": "Styles\\Colors\\DarkTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-05T16:03:21.791Z",
@@ -428,11 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "DefaultColors.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\Colors\\DefaultColors.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\Colors\\DefaultColors.xaml",
               "RelativeDocumentMoniker": "Styles\\Colors\\DefaultColors.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Styles\\Colors\\DefaultColors.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Styles\\Colors\\DefaultColors.xaml",
               "RelativeToolTip": "Styles\\Colors\\DefaultColors.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-05T16:03:25.307Z",
@@ -440,11 +407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "AddPacientPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AddPacientPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\AddPacientPage.xaml.cs",
               "RelativeToolTip": "Pages\\AddPacientPage.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAD4vycAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -452,12 +419,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\st310-06\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\st310-06\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
               "ToolTip": "C:\\Users\\st310-06\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "RelativeToolTip": "..\\..\\..\\..\\st310-06\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
               "ViewState": "AgIAAOoBAAAAAAAAAAAtwP4BAAACAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T08:47:14.802Z",
@@ -465,11 +432,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "RedactPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RedactPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RedactPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\RedactPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RedactPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RedactPage.xaml.cs",
               "RelativeToolTip": "Pages\\RedactPage.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -477,11 +444,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\LoginPage.xaml.cs",
               "RelativeToolTip": "Pages\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -489,23 +456,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "WpfApp_DataBinding_Ver2",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\WpfApp_DataBinding_Ver2.csproj",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\WpfApp_DataBinding_Ver2.csproj",
               "RelativeDocumentMoniker": "WpfApp_DataBinding_Ver2.csproj",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\WpfApp_DataBinding_Ver2.csproj",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\WpfApp_DataBinding_Ver2.csproj",
               "RelativeToolTip": "WpfApp_DataBinding_Ver2.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-26T19:58:33.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T19:58:33.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "ThemeHelper.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\ThemeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\ThemeHelper.cs",
               "RelativeDocumentMoniker": "ThemeHelper.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\ThemeHelper.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\ThemeHelper.cs",
               "RelativeToolTip": "ThemeHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -513,11 +479,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\Pages\\RegisterPage.xaml.cs",
               "RelativeToolTip": "Pages\\RegisterPage.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -525,16 +491,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\pavel\\Desktop\\TRPO\\WpfPages\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u0415\u0440\u0435\u043C\u0435\u0435\u0432_\u041F\u0420-42\\Test\\TestRepo\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-15T22:22:24.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T22:22:24.31Z"
             }
           ]
         }
