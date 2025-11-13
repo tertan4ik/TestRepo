@@ -213,3 +213,9 @@ C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-
 C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.pdb
 C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.genruntimeconfig.cache
 C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\ref\WpfApp_DataBinding_Ver2.dll
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.csproj.AssemblyReference.cache
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2_Content.g.cs
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\st310-06\Desktop\Еремеев_ПР-42\Test\TestRepo\obj\Debug\net8.0-windows\WpfApp_D.488E228C.Up2Date

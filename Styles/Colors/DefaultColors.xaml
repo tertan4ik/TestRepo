@@ -26,4 +26,6 @@
     <SolidColorBrush x:Key="DeleteButtonHoverColor" Color="{StaticResource DeleteColorHover}"/>
     <SolidColorBrush x:Key="StandClickColor" Color="{StaticResource ClickColor}"/>
     <SolidColorBrush x:Key="AddColorClick" Color="{StaticResource AddClickColor}"/>
+    
+    
 </ResourceDictionary>

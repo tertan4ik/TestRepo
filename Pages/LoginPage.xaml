@@ -5,14 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       xmlns:main ="clr-namespace:WpfApp_DataBinding_Ver2"
-      mc:Ignorable="d" 
-      d:DesignHeight="270" d:DesignWidth="400"
-      Title="LoginPage">
+      mc:Ignorable="d"
+      Title="LoginPage" Height="305" Width="405">
 
     <Page.Resources>
         <main:User x:Key="UserLog"/>
     </Page.Resources>
-    
+
     <Grid Margin="0,0,0,-16">
         <Border DataContext="{StaticResource UserLog}" Style="{StaticResource SpecBorder}">
             <StackPanel Style="{StaticResource Panels}">
@@ -24,7 +23,7 @@
                     <Label Content="Password" DockPanel.Dock="Top" HorizontalAlignment="Center"  />
                     <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Password}"/>
                 </DockPanel>
-                <Button Content="Войти" Height="40" Width="300"  HorizontalAlignment="Center" Click="Login"/>
+                <Button   Content="Войти" Height="40" Width="300"  HorizontalAlignment="Center" Click="Login"/>
                 <Button Content="Регистрация" Height="40" Width="300"  HorizontalAlignment="Center" Click="Gotoregister"/>
             </StackPanel>
         </Border>

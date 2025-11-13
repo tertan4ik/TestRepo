@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfApp_DataBinding_Ver2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b327b2183d7abe4e170e930d5fa0935e740c083")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68050cfb5ff7ae1f2f2391af1db451ff2d5a2cdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfApp_DataBinding_Ver2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfApp_DataBinding_Ver2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
