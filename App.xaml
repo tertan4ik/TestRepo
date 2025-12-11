@@ -3,30 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              StartupUri="MainWindow.xaml">
+
     <Application.Resources>
         <ResourceDictionary>
-
-
-
-
             <ResourceDictionary.MergedDictionaries>
+
+                <materialDesign:BundledTheme BaseTheme="Light"
+                                             PrimaryColor="Teal"
+                                             SecondaryColor="Teal" />
 
 
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
 
-                <ResourceDictionary Source="/Styles/Colors/DefaultColors.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/Text.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/Panels.xaml"/>
+                <ResourceDictionary Source="/Styles/Colors/DefaultColors.xaml" />
+  
+
+
+                <ResourceDictionary Source="/Styles/UI/Button.xaml" />
+                <ResourceDictionary Source="/Styles/UI/Text.xaml" />
+                <ResourceDictionary Source="/Styles/UI/Panels.xaml" />
+
             </ResourceDictionary.MergedDictionaries>
 
+    
             <Style TargetType="Page">
-                <Setter Property="Background" Value="{DynamicResource BackgroundBrush}"/>
-   
+                <Setter Property="Background" Value="{DynamicResource BackgroundBrush}" />
             </Style>
-            <Style TargetType="Window">
-                <Setter Property="Background" Value="{DynamicResource BackgroundBrush}"/>
 
+            <Style TargetType="Window">
+                <Setter Property="Background" Value="{DynamicResource BackgroundBrush}" />
             </Style>
 
         </ResourceDictionary>

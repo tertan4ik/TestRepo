@@ -8,7 +8,7 @@
         Title="Медицинская система" Height="835" Width="1000"
         Background="{DynamicResource BackgroundBrush}">
 
-    <DockPanel>
+    <DockPanel LastChildFill="True">
         <!-- Меню - основа готова -->
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Настройки">

@@ -72,8 +72,8 @@
                     </ItemsControl>
                 </DockPanel>
 
-                <Button Width="300" Height="35" Content="Закончить прием" HorizontalAlignment="Center"  Click="EndReception"/>
-                <Button Width="300" Height="35" Content="Назад" HorizontalAlignment="Center"  Click="Back"/>
+                <Button Width="300" Height="44" Content="Закончить прием" HorizontalAlignment="Center"  Click="EndReception"/>
+                <Button Width="300" Height="43" Content="Назад" HorizontalAlignment="Center"  Click="Back"/>
             </StackPanel>
         </Border>
 

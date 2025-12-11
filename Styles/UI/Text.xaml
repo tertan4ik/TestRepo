@@ -1,55 +1,64 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                     xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
-                    >
+                    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
 
-
+    <!-- Label -->
     <Style TargetType="Label" BasedOn="{StaticResource MaterialDesignLabel}">
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
-        <Setter Property="Margin" Value="0,0,0,5"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,5" />
     </Style>
+
+ 
     <Style TargetType="TextBlock">
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Margin" Value="5,0,0,5"/>
-    </Style>
-
-    <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignComboBoxEditableTextBox}">
-        <!--<Setter Property="Margin" Value="0,0,0,5"/>
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="FontSize" Value="14"/>-->
-        <!--<Setter Property="BorderBrush" Value="{DynamicResource SecondaryBrush}"/>
-        <Setter Property="Background" Value="{DynamicResource BackgroundBrush}"/>
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>-->
-
-       
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Margin" Value="5,0,0,5" />
+        <Setter Property="TextWrapping" Value="Wrap" />
     </Style>
 
 
-    <Style TargetType="ItemsControl">
-        <Setter Property="Margin" Value="0,2,0,10"/>
-        <Setter Property="Foreground" Value="Red"/>
-        <Setter Property="FontSize" Value="12"/>
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="BorderBrush" Value="Transparent"/>
-        <Setter Property="BorderThickness" Value="0"/>
-        <Setter Property="Padding" Value="0"/>
+    <Style TargetType="TextBox"
+           BasedOn="{StaticResource MaterialDesignTextBox}">
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Background" Value="{DynamicResource InputBackgroundBrush}" />
+        <Setter Property="Margin" Value="0,0,0,8" />
     </Style>
 
-    <Style TargetType="DatePicker">
-        <Setter Property="Foreground" Value="{DynamicResource SecondaryBrush}"/>
+
+
+
+    <Style TargetType="ComboBox"
+           BasedOn="{StaticResource MaterialDesignComboBox}">
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,8" />
     </Style>
+
+
+    <Style TargetType="DatePicker"
+           BasedOn="{StaticResource MaterialDesignDatePicker}">
+        <Setter Property="Foreground" Value="{DynamicResource SecondaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,8" />
+    </Style>
+
 
     <Style TargetType="ListView">
-        <Setter Property="Background" Value="{DynamicResource BackgroundBrush}"/>
-    </Style>
-    <Style TargetType="ListViewItem">
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="BorderBrush" Value="{DynamicResource SecondaryBrush}"/>
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
+        <Setter Property="Background" Value="{DynamicResource CardBackgroundBrush}" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Margin" Value="0,8,0,0" />
     </Style>
     
+    <Style TargetType="ItemsControl">
+        <Setter Property="Visibility" Value="Hidden"/>
+    </Style>
+
+    <Style TargetType="ListViewItem"
+           BasedOn="{StaticResource MaterialDesignListBoxItem}">
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="BorderBrush" Value="{DynamicResource SecondaryBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,2" />
+    </Style>
+
 </ResourceDictionary>

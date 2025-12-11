@@ -5,9 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       xmlns:main="clr-namespace:WpfApp_DataBinding_Ver2"
-      mc:Ignorable="d" 
-      d:DesignHeight="480" d:DesignWidth="800"
-      Title="MainPage">
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="MainPage" Height="636">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -15,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel x:Name="UserInfo" Style="{StaticResource Panels}">
             <Border VerticalAlignment="Top" Style="{StaticResource SpecBorder}">
-                <StackPanel Margin="10">
+                <StackPanel Margin="8">
                     <Label Content="Name:"/>
                     <Label Content="{Binding Name,Mode=OneTime}" HorizontalContentAlignment="Left" />
                     <Label Content="Surname:"/>
@@ -28,12 +27,12 @@
                     <Label Content="{Binding ID,Mode=OneTime}" HorizontalContentAlignment="Left" />
                 </StackPanel>
             </Border>
-            <Border  Grid.Column="0">
-                <StackPanel Margin="10">
-                    <Button Content="Добавить пациента" Style="{StaticResource AddButton}" Click="Gotoadd"/>
-                    <Button Content="Изменить пациента"  Click="Gotoredact"/>
-                    <Button Content="Удалить" Style="{StaticResource DeleteButton}"   Click="DeleteUser"/>
-                    <Button Content="Начать прием"   Click="GotoRecept"/>
+            <Border  Grid.Column="0" Height="257">
+                <StackPanel Margin="0,5,0,0" RenderTransformOrigin="0.498,0.604">
+                    <Button Content="Добавить пациента" Style="{StaticResource AddButton}" Click="Gotoadd" Height="44"/>
+                    <Button Content="Изменить пациента"  Click="Gotoredact" Height="41"/>
+                    <Button Content="Удалить" Style="{StaticResource DeleteButton}"   Click="DeleteUser" Height="40"/>
+                    <Button Content="Начать прием"   Click="GotoRecept" Height="45"/>
                 </StackPanel>
             </Border>
         </StackPanel>
@@ -41,7 +40,7 @@
 
 
         <Border Grid.Column="1" Style="{StaticResource SpecBorder}">
-            <ListView Grid.Column="1" ItemsSource="{Binding Pacients}" SelectedItem="{Binding Selectedpacient}"> 
+            <ListView Grid.Column="1" ItemsSource="{Binding Pacients}" SelectedItem="{Binding Selectedpacient}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
